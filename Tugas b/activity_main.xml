@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:cropToPadding="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/desert_mountains_bushes" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:cropToPadding="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/planets_stars_galaxy_" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:cropToPadding="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/abstraction_light_neon_glitter" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/satu"
+        tools:layout_editor_absoluteX="274dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="137dp"
+                android:layout_height="137dp"
+                android:cropToPadding="true"
+                android:paddingLeft="1dp"
+                android:paddingTop="1dp"
+                android:paddingRight="1dp"
+                android:paddingBottom="1dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/owl_night_birds_branch" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="137dp"
+                android:layout_height="137dp"
+                android:cropToPadding="true"
+                android:paddingLeft="1dp"
+                android:paddingTop="1dp"
+                android:paddingRight="1dp"
+                android:paddingBottom="1dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fractal_tangled_glow" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="274dp"
+            android:layout_weight="1"
+            android:cropToPadding="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/fractal_pattern_tangled" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/dua">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:cropToPadding="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/planets_space_wind_" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:cropToPadding="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/mountains_fog_peaks_147317" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:cropToPadding="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/rotation_light_background_dark" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
